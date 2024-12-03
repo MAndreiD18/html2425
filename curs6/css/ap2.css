@@ -1,0 +1,62 @@
+#container{
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#container h1{
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-bottom: 2px solid rgb(24, 58, 228);
+padding-bottom: 10px;
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+/* padding: 20px 10 px 10 px 10px; */
+text-align: center;
+}
+
+#myform{
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 50px;
+    
+}
+#myform div{
+    margin: 15px 0px;
+
+}
+#myform label{
+    display: inline-block;
+    width: 150px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#myform input{
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+
+}
+#check label{
+    display: inline-block;
+    width: 300px;
+}
+
+#check input{
+    display: inline-block;
+    width: 20px;
+    padding: 5px;
+
+}
+
+#sub{
+    background-color: rgb(18, 14, 255);
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 25px;
+}
