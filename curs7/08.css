@@ -1,0 +1,25 @@
+#id1{
+    border: solid 5px green;
+    padding: 10px;
+    
+    
+}
+#id2{
+    border: solid 5px rgb(106, 0, 0);
+  
+    text-align: center;
+    
+}
+
+.grid{
+border: solid 5px rgb(68, 78, 145);
+ display: grid;
+ grid-template-columns: 70% 28%;
+ grid-gap: 10px;
+ padding: auto;
+}
+.grid > div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

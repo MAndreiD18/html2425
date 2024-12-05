@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     
+       menu{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      li:hover{
+        background-color:red;
+      }
+      nav ul li{
+        background-color: blue;
+      list-style-type: none;
+      float: left;
+      padding:  10px;
+      }
+      li.active{
+        background-color: red;
+      }
+      .submeniu{
+        display:none;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+      }
+      nav > ul > li:hover > ul.submeniu{
+        display: block;
+        background-color: blue;
+        clear: both;
+        margin-top: 10px;
+        position: absolute;
+        width: 160px;
+      }
+      ul.submeniu > li > a{
+        padding: 15px 20px;
+        text-decoration: none;
+    }
+
+    ul.submeniu > li:hover {
+        background-color: red;
+        color: white;
+    }
+    nav > ul > li:hover > ul.submeniu > li{
+        padding: 7px 5px 7px 5px;
+    }
+
+    </style>
+</head>
+<body>
+    
+<menu>
+    <nav>
+        <ul>
+            <li class="active"><a href="">ACASA</a></li>
+            <li><a href="">BLOG</a>
+            <ul class="submeniu">
+                <li><a href="">Lista</a></li>
+                <li><a href="">Paragrafe</a></li>
+                <li><a href="">Numar</a></li>
+                <li><a href="">Tabel</a></li>
+                <li><a href="">Formular</a></li>
+            </ul>
+            </li>
+            <li><a href="">PORTOFOLIU</a></li>
+            <li><a href="">DESPRE NOI</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+</menu>
+
+</body>
+</html>

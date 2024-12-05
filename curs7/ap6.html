@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    counter-reset: titlu;
+}
+
+h1{
+    counter-reset: subtitlu;
+    color: red;
+}
+h1::before{
+    counter-increment: titlu;
+    content: counter(titlu) ". ";
+}
+
+h3{
+    color: blue;
+    
+}
+
+h3::before {
+    margin-left: 25px;
+    counter-increment: subtitlu;
+    content: counter(titlu) "." counter(subtitlu) ". ";
+}
+</style>
+
+<h1>Lorem, ipsum.</h1>
+<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, harum.</h3>
+<h3>Impedit facere quam exercitationem repudiandae omnis sint beatae sed eum.</h3>
+<h3>Eum quo at sint temporibus accusantium iusto dolorem. Iure, quae.</h3>
+<h3>Quae assumenda, culpa ratione facere autem expedita delectus natus quaerat.</h3>
+<h3>Recusandae incidunt animi quibusdam ea officiis sunt odit amet repellat.</h3>
+<h3>Fuga ducimus at distinctio quos amet incidunt. Omnis, impedit accusamus.</h3>
+<h1>Rerum, sint.</h1>
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ex.</h3>
+<h3>Recusandae velit sequi temporibus alias amet, suscipit ab odio sit!</h3>
+<h3>Autem aliquam quibusdam sit. Quo laudantium at modi velit vitae.</h3>
+<h3>Voluptatem voluptatibus dolore quaerat adipisci consequuntur eos, rem itaque aspernatur?</h3>
+<h3>Voluptas voluptatum ratione vero. Modi provident fuga tempore. Blanditiis, dolorem.</h3>
+<h3>Facilis eius aspernatur amet quis distinctio aliquid eveniet dolores cupiditate!</h3>
+<h1>Quam, atque!</h1>
+<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sint!</h3>
+<h3>Cupiditate amet laboriosam fugiat dolorem, omnis sit repellendus soluta perferendis.</h3>
+<h3>Dolore sint quis, blanditiis id optio iure eaque quia ratione.</h3>
+<h3>Velit repellendus quis officiis error tempore excepturi eius vel exercitationem!</h3>
+<h3>Iste, officiis? Adipisci laborum incidunt ab quisquam voluptas accusamus nesciunt!</h3>
+<h3>Ad molestiae quam distinctio saepe aspernatur non recusandae. Nobis, minus!</h3>
+<h1>Inventore, esse!</h1>
+<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, ea?</h3>
+<h3>Quaerat veniam quas illum architecto ut ipsa molestias voluptatem obcaecati?</h3>
+<h3>Consequuntur, suscipit? Accusamus quae id deleniti laudantium fugiat alias ipsa?</h3>
+<h3>Saepe blanditiis quo enim expedita voluptates quos deleniti nemo quidem.</h3>
+<h3>Placeat, repudiandae quae deserunt quidem nemo explicabo recusandae nesciunt laudantium!</h3>
+<h3>Repellendus quis fugiat repellat ullam eius provident quam veniam odit.</h3>
+<h1>Eveniet, pariatur!</h1>
+<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, doloremque.</h3>
+<h3>Ducimus totam odio placeat. Quibusdam ut est quo hic beatae!</h3>
+<h3>Dolores veniam officia molestias quasi doloribus adipisci consequatur porro minus.</h3>
+<h3>Rem nostrum ea sint obcaecati veniam veritatis distinctio enim vitae!</h3>
+<h3>Esse deserunt non nulla labore dolor in facilis minima et?</h3>
+<h3>Deleniti architecto aliquid enim, dignissimos suscipit maxime eius reprehenderit maiores.</h3>
+
+<body>
+    
+</body>
+</html>

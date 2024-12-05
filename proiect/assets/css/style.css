@@ -88,5 +88,38 @@ nav ul li a{
     margin: 20px;
 }
 
+/* START Contact */
+#contact div{
+    margin: 25px 0px;
+}
+
+#contact label{
+    width: 100px;
+    display: inline-block;
+}
+#contact select{
+    width: 200px;
+}
+#contact fieldset{
+    display: inline-block;
+    width: 400px;
+    border: 2px solid red;
+}
+
+#contact fieldset legend{
+    color: blue;
+}
+
+/* STOP Contact */
+
+
+/* GENERAL */
+
+#titlu{
+    color: aqua;
+    border-bottom: 5px solid red;
+    font-size: 25px;
+}
+
 
   
